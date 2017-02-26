@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" verbose="2" thread-count="1">
+    <test name="XML-JSON API Test Group">
+        <classes>
+        <class name="api.test.Tc1MimeTypeXml"/>
+        <class name="api.test.Tc2MimeTypeJson"/>
+        </classes>
+    </test>
+</suite>
